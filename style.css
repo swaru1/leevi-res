@@ -202,4 +202,63 @@ main .svgs img {
      object-fit: contain;
   -o-object-position: center;
      object-position: center;
+}
+main .sec-3 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .sec-3 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .sec-3 .left h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+main .sec-3 .left h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+}
+main .sec-3 .left p {
+  font-size: 16px;
+  font-weight: 200;
+}
+main .sec-3 .right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .sec-3 .right .card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+}
+main .sec-3 .right .card img {
+  width: 60px;
+  margin-bottom: 2.5rem;
+}
+main .sec-3 .right .card h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main .sec-3 .right .card p {
+  font-size: 18px;
+  font-weight: 200;
+}
+main .sec-3 .right button {
+  border-radius: 6px;
+  border: none;
+  padding: 1rem;
+  background-color: rgb(252, 252, 63);
+  font-size: 14px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
