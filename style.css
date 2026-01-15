@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Thin */
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+/* ExtraLight */
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Extralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-ExtralightItalic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+/* Light */
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+/* Regular */
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+/* Medium */
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+/* Bold */
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+/* ExtraBold */
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-ExtraboldItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Supreme", sans-serif;
+  background-color: rgb(224, 224, 224);
+}
+
+main {
+  background-color: white;
+  border-radius: 1rem;
+  height: 100vh;
+  padding: 1.5rem;
+}
+main nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 100;
+}
+main nav .logo img {
+  height: 100%;
+  width: 4.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main nav .links {
+  display: none;
+}
+main nav .nav-right {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 0.5rem;
+}
+main nav .nav-right .btn {
+  text-transform: uppercase;
+  font-size: 1rem;
+  background-color: rgba(244, 244, 141, 0.888);
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+main nav .nav-right .ham-menu {
+  display: flex;
+}
+main nav .nav-right .ham-menu i {
+  font-size: 1.2rem;
+  background-color: rgba(245, 245, 245, 0.811);
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.8rem;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
