@@ -514,7 +514,6 @@ main {
             font-weight: 200;
             line-height: 29px;
           }
-
         }
 
         .card-y {
@@ -546,6 +545,126 @@ main {
           }
         }
       }
+    }
+  }
+
+  .sec-8 {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .img-div {
+        height: 400px;
+        border-radius: 0.5rem;
+        //background-color: aquamarine;
+        overflow: hidden;
+        position: relative;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+
+        .overlay {
+          padding: 2rem;
+          color: white;
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+
+          h4 {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 500;
+          }
+
+          h3 {
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 44px;
+          }
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      .card {
+        background-color: whitesmoke;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        
+        h1 {
+          i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+          }
+        }
+
+        h3 {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 29px;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          font-size: 18px;
+          font-weight: 200;
+          line-height: 29px;
+        }
+
+
+
+      }
+    }
+  }
+
+  .sec-9 {
+    background-color: rgb(252, 252, 109);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-top: 4rem;
+
+    img {
+      width: 60px;
+      margin-bottom: 3rem;
+    }
+
+    h4 {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 48px;
+      margin-bottom: 2rem;
+    }
+
+    button {
+      width: 100%;
+      border-radius: 0.5rem;
+      background-color: black;
+      padding: 1rem;
+      color: white;
+      font-size: 14px;
+      text-transform: uppercase;
     }
   }
 }
