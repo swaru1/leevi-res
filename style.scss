@@ -297,10 +297,11 @@ main {
   }
 
   .sec-4 {
+
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 3rem;
 
     .top {
       h5 {
@@ -324,6 +325,7 @@ main {
         overflow: hidden;
 
         .overlay {
+          background-color: rgba(0, 0, 0, 0.162);
           padding: 2rem;
           position: absolute;
           top: 0;
@@ -894,6 +896,27 @@ footer {
           }
           p {
             font-size: 20px;
+          }
+        }
+      }
+
+      .sec-4 {
+        .bottom {
+          .img-card {
+            height: 610px;
+
+            .overlay {
+              padding: 4rem;
+
+              h1 {
+                font-size: 80px;
+              }
+
+              p {
+                font-size: 12px;
+              }
+
+            }
           }
         }
       }

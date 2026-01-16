@@ -266,7 +266,7 @@ main .sec-4 {
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 3rem;
 }
 main .sec-4 .top h5 {
   text-transform: uppercase;
@@ -286,6 +286,7 @@ main .sec-4 .bottom .img-card {
   overflow: hidden;
 }
 main .sec-4 .bottom .img-card .overlay {
+  background-color: rgba(0, 0, 0, 0.162);
   padding: 2rem;
   position: absolute;
   top: 0;
@@ -774,5 +775,17 @@ footer .page-links h4 {
   }
   body main .sec-3 .left p {
     font-size: 20px;
+  }
+  body main .sec-4 .bottom .img-card {
+    height: 610px;
+  }
+  body main .sec-4 .bottom .img-card .overlay {
+    padding: 4rem;
+  }
+  body main .sec-4 .bottom .img-card .overlay h1 {
+    font-size: 80px;
+  }
+  body main .sec-4 .bottom .img-card .overlay p {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
