@@ -748,4 +748,11 @@ footer .page-links h4 {
   body main .sec-1 .hero-img {
     height: 600px;
   }
+  body main .svgs {
+    margin-top: 4rem;
+    justify-content: space-between;
+  }
+  body main .svgs img {
+    width: 80px;
+  }
 }/*# sourceMappingURL=style.css.map */
