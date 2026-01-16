@@ -874,7 +874,30 @@ footer {
           width: 80px;
         }
       }
-      
+
+      .sec-3 {
+        margin-top: 8rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 80px;
+
+        .left {
+          flex-direction: column;
+          gap: 1rem;
+
+          h5 {
+            font-size: 14px;
+          }
+          h1 {
+            font-size: 4rem;
+            line-height: 100%;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+
     }
   }
 }

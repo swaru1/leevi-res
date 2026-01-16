@@ -755,4 +755,24 @@ footer .page-links h4 {
   body main .svgs img {
     width: 80px;
   }
+  body main .sec-3 {
+    margin-top: 8rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 80px;
+  }
+  body main .sec-3 .left {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  body main .sec-3 .left h5 {
+    font-size: 14px;
+  }
+  body main .sec-3 .left h1 {
+    font-size: 4rem;
+    line-height: 100%;
+  }
+  body main .sec-3 .left p {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
