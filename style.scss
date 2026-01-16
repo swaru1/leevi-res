@@ -297,11 +297,10 @@ main {
   }
 
   .sec-4 {
-
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2.5rem;
 
     .top {
       h5 {
@@ -858,14 +857,12 @@ footer {
           h3 {
             font-size: 1.5rem;
             text-align: start;
-
           }
         }
 
         .hero-img {
           height: 600px;
         }
-
       }
 
       .svgs {
@@ -901,6 +898,8 @@ footer {
       }
 
       .sec-4 {
+        gap: 3rem;
+
         .bottom {
           .img-card {
             height: 610px;
@@ -915,12 +914,59 @@ footer {
               p {
                 font-size: 12px;
               }
-
             }
           }
         }
       }
 
+      .sec-5 {
+        flex-direction: row;
+        gap: 4rem;
+
+        .top {
+          min-width: 400px;
+        }
+
+        .bottom {
+          gap: 2rem;
+          
+          h1 {
+            font-size: 3rem;
+            line-height: 100%;
+          }
+
+          .text {
+            flex-direction: row;
+            gap: 3rem;
+
+            p {
+              line-height: 160%;
+              width: 50%;
+            }
+
+          }
+        }
+      }
+
+      .sec-6 {
+        margin-top: 8rem;
+        flex-direction: row;
+        gap: 4rem;
+
+        .top {
+          min-width: 400px;
+        }
+
+        .bottom {
+          width: 100%;
+          .award {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+
+      }
     }
   }
 }

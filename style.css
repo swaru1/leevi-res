@@ -266,7 +266,7 @@ main .sec-4 {
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 main .sec-4 .top h5 {
   text-transform: uppercase;
@@ -776,6 +776,9 @@ footer .page-links h4 {
   body main .sec-3 .left p {
     font-size: 20px;
   }
+  body main .sec-4 {
+    gap: 3rem;
+  }
   body main .sec-4 .bottom .img-card {
     height: 610px;
   }
@@ -787,5 +790,43 @@ footer .page-links h4 {
   }
   body main .sec-4 .bottom .img-card .overlay p {
     font-size: 12px;
+  }
+  body main .sec-5 {
+    flex-direction: row;
+    gap: 4rem;
+  }
+  body main .sec-5 .top {
+    min-width: 400px;
+  }
+  body main .sec-5 .bottom {
+    gap: 2rem;
+  }
+  body main .sec-5 .bottom h1 {
+    font-size: 3rem;
+    line-height: 100%;
+  }
+  body main .sec-5 .bottom .text {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  body main .sec-5 .bottom .text p {
+    line-height: 160%;
+    width: 50%;
+  }
+  body main .sec-6 {
+    margin-top: 8rem;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  body main .sec-6 .top {
+    min-width: 400px;
+  }
+  body main .sec-6 .bottom {
+    width: 100%;
+  }
+  body main .sec-6 .bottom .award {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
