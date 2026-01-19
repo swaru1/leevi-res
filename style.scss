@@ -929,7 +929,7 @@ footer {
 
         .bottom {
           gap: 2rem;
-          
+
           h1 {
             font-size: 3rem;
             line-height: 100%;
@@ -943,7 +943,6 @@ footer {
               line-height: 160%;
               width: 50%;
             }
-
           }
         }
       }
@@ -965,7 +964,6 @@ footer {
             align-items: center;
           }
         }
-
       }
 
       .sec-7 {
@@ -991,7 +989,7 @@ footer {
             .card {
               padding: 3rem;
 
-              img{
+              img {
                 width: 60px;
               }
 
@@ -1002,7 +1000,6 @@ footer {
               p {
                 line-height: 160%;
               }
-
             }
 
             .card-y {
@@ -1016,7 +1013,6 @@ footer {
               }
             }
           }
-
         }
       }
 
@@ -1033,7 +1029,7 @@ footer {
             width: 365px;
             aspect-ratio: 1600/1600;
           }
-          .img-div .overlay {            
+          .img-div .overlay {
             h3 {
               font-size: 3rem;
             }
@@ -1056,7 +1052,6 @@ footer {
               font-size: 28px;
             }
             p {
-
             }
           }
         }
@@ -1066,7 +1061,6 @@ footer {
         display: flex;
         align-items: end;
         gap: 3rem;
-
 
         img {
           width: 120px;
@@ -1084,6 +1078,35 @@ footer {
           padding: 24px 32px;
           width: max-content;
           white-space: nowrap;
+        }
+      }
+
+      .sec-10 {
+        flex-direction: row;
+        padding-block: 8rem;
+        margin-top: 0;
+        gap: 4rem;
+        width: 100%;
+
+        .left {
+          width: 33%;
+          .txt {
+            h1 {
+              font-size: 4rem;
+              text-align: start;
+            }
+
+            p {
+              font-size: 20px;
+              text-align: start;
+            }
+          }
+        }
+        .right {
+          display: grid;
+          flex: 1 0 0px;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
         }
       }
     }

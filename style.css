@@ -920,4 +920,28 @@ footer .page-links h4 {
     width: max-content;
     white-space: nowrap;
   }
+  body main .sec-10 {
+    flex-direction: row;
+    padding-block: 8rem;
+    margin-top: 0;
+    gap: 4rem;
+    width: 100%;
+  }
+  body main .sec-10 .left {
+    width: 33%;
+  }
+  body main .sec-10 .left .txt h1 {
+    font-size: 4rem;
+    text-align: start;
+  }
+  body main .sec-10 .left .txt p {
+    font-size: 20px;
+    text-align: start;
+  }
+  body main .sec-10 .right {
+    display: grid;
+    flex: 1 0 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }/*# sourceMappingURL=style.css.map */
