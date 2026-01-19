@@ -726,7 +726,272 @@ footer .page-links h4 {
 }
 @media (min-width: 1024px) {
   body {
-    background-color: rgb(6, 206, 206);
+    padding: 2rem;
+    background-color: skyblue;
+  }
+  body main {
+    padding: 2rem 3rem;
+  }
+  body main .sec-1 {
+    margin-top: 6rem;
+    gap: 3rem;
+  }
+  body main .sec-1 .hero-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .sec-1 .hero-txt h1 {
+    font-size: 4rem;
+    line-height: 100%;
+  }
+  body main .sec-1 .hero-txt h3 {
+    margin-top: 1rem;
+    font-size: 20px;
+    width: 44%;
+  }
+  body main .sec-1 .hero-img {
+    height: 445px;
+  }
+  body main .svgs {
+    margin-top: 4rem;
+    justify-content: space-between;
+  }
+  body main .svgs img {
+    width: 55px;
+  }
+  body main .sec-3 {
+    margin-top: 8rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 80px;
+  }
+  body main .sec-3 .left {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  body main .sec-3 .left h5 {
+    font-size: 14px;
+  }
+  body main .sec-3 .left h1 {
+    font-size: 3rem;
+    line-height: 100%;
+  }
+  body main .sec-3 .left p {
+    font-size: 18px;
+    line-height: 160%;
+    max-width: 500px;
+  }
+  body main .sec-4 {
+    gap: 3rem;
+  }
+  body main .sec-4 .bottom .img-card {
+    height: 480px;
+  }
+  body main .sec-4 .bottom .img-card .overlay {
+    padding: 4rem;
+  }
+  body main .sec-4 .bottom .img-card .overlay h1 {
+    font-size: 80px;
+  }
+  body main .sec-4 .bottom .img-card .overlay p {
+    font-size: 12px;
+  }
+  body main .sec-5 {
+    gap: 1rem;
+  }
+  body main .sec-5 .top {
+    min-width: 400px;
+  }
+  body main .sec-5 .bottom {
+    gap: 1rem;
+  }
+  body main .sec-5 .bottom h1 {
+    font-size: 40px;
+    line-height: 100%;
+  }
+  body main .sec-5 .bottom .text {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  body main .sec-5 .bottom .text p {
+    line-height: 160%;
+    width: 50%;
+  }
+  body main .sec-6 {
+    margin-top: 8rem;
+    gap: 4rem;
+  }
+  body main .sec-6 .top {
+    min-width: 400px;
+  }
+  body main .sec-6 .bottom {
+    width: 100%;
+  }
+  body main .sec-6 .bottom .award {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body main .sec-7 {
+    gap: 2rem;
+  }
+  body main .sec-7 .top {
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+  }
+  body main .sec-7 .top h3 {
+    font-size: 40px;
+  }
+  body main .sec-7 .bottom {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  body main .sec-7 .bottom .left {
+    height: 70vh;
+    aspect-ratio: 1.4444444444;
+  }
+  body main .sec-7 .bottom .right .card {
+    padding: 3rem;
+  }
+  body main .sec-7 .bottom .right .card img {
+    width: 60px;
+  }
+  body main .sec-7 .bottom .right .card h4 {
+    margin-top: 3rem;
+  }
+  body main .sec-7 .bottom .right .card p {
+    line-height: 160%;
+  }
+  body main .sec-7 .bottom .right .card-y {
+    padding: 3rem;
+  }
+  body main .sec-7 .bottom .right .card-y h3 {
+    font-size: 40px;
+    margin-bottom: 6rem;
+  }
+  body main .sec-7 .bottom .right .card-y button {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  body main .sec-8 {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    padding-block: 4rem;
+    margin-top: 0;
+  }
+  body main .sec-8 .left .img-div {
+    height: 600px;
+    aspect-ratio: 1600/1600;
+  }
+  body main .sec-8 .left .img-div .overlay {
+    padding: 3rem;
+  }
+  body main .sec-8 .left .img-div .overlay h3 {
+    font-size: 3rem;
+    width: 240px;
+  }
+  body main .sec-8 .right {
+    flex-direction: column;
+  }
+  body main .sec-8 .right .card {
+    padding: 40px;
+  }
+  body main .sec-8 .right .card h1 i {
+    width: 40px;
+    margin-bottom: 1rem;
+  }
+  body main .sec-8 .right .card h3 {
+    font-size: 28px;
+  }
+  body main .sec-9 {
+    margin: 0;
+    padding: 4rem;
+    display: flex;
+    align-items: end;
+    gap: 3rem;
+    flex-direction: column;
+  }
+  body main .sec-9 img {
+    width: 120px;
+    margin-bottom: 6rem;
+  }
+  body main .sec-9 .lg-txt {
+    display: flex;
+    align-items: center;
+  }
+  body main .sec-9 h2 {
+    font-size: 3.5rem;
+    line-height: 100%;
+    margin: 0;
+  }
+  body main .sec-9 button {
+    padding: 24px 32px;
+    white-space: nowrap;
+  }
+  body main .sec-10 {
+    flex-direction: row;
+    padding-block: 8rem;
+    margin-top: 0;
+    gap: 3rem;
+    width: 100%;
+  }
+  body main .sec-10 .left {
+    width: 33%;
+  }
+  body main .sec-10 .left .txt h1 {
+    font-size: 3.5rem;
+    text-align: start;
+  }
+  body main .sec-10 .left .txt p {
+    font-size: 18px;
+    text-align: start;
+  }
+  body main .sec-10 .right {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .sec-10 .right .card div {
+    height: 315px;
+  }
+  body footer {
+    margin-top: 6rem;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+  }
+  body footer .socials {
+    margin: 0;
+    width: 33%;
+    align-items: start;
+    gap: 2rem;
+  }
+  body footer .socials img {
+    margin: 0;
+  }
+  body footer .socials div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  body footer .socials div h4 {
+    align-self: flex-start;
+  }
+  body footer .page-links {
+    flex-grow: 1;
+    margin: 0;
+    align-items: start;
+  }
+  body .copy {
+    text-align: center;
+    padding: 8rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.466);
   }
 }
 @media (min-width: 1440px) {
@@ -753,7 +1018,9 @@ footer .page-links h4 {
   }
   body main .sec-1 .hero-txt {
     display: flex;
+    flex-direction: row;
     align-items: end;
+    justify-content: space-between;
   }
   body main .sec-1 .hero-txt h1 {
     font-size: 80px;
