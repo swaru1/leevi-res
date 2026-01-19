@@ -1061,6 +1061,31 @@ footer {
           }
         }
       }
+      .sec-9 {
+        padding: 4rem;
+        display: flex;
+        align-items: end;
+        gap: 3rem;
+
+
+        img {
+          width: 120px;
+          margin-bottom: 6rem;
+        }
+        .lg-txt {
+          display: flex;
+          align-items: center;
+        }
+        h2 {
+          font-size: 4rem;
+          line-height: 100%;
+        }
+        button {
+          padding: 24px 32px;
+          width: max-content;
+          white-space: nowrap;
+        }
+      }
     }
   }
 }

@@ -896,4 +896,28 @@ footer .page-links h4 {
   body main .sec-8 .right .card h3 {
     font-size: 28px;
   }
+  body main .sec-9 {
+    padding: 4rem;
+    display: flex;
+    align-items: end;
+    gap: 3rem;
+  }
+  body main .sec-9 img {
+    width: 120px;
+    margin-bottom: 6rem;
+  }
+  body main .sec-9 .lg-txt {
+    display: flex;
+    align-items: center;
+  }
+  body main .sec-9 h2 {
+    font-size: 4rem;
+    line-height: 100%;
+  }
+  body main .sec-9 button {
+    padding: 24px 32px;
+    width: -moz-max-content;
+    width: max-content;
+    white-space: nowrap;
+  }
 }/*# sourceMappingURL=style.css.map */
