@@ -829,4 +829,71 @@ footer .page-links h4 {
     justify-content: space-between;
     align-items: center;
   }
+  body main .sec-7 .top {
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+  }
+  body main .sec-7 .top h3 {
+    font-size: 3rem;
+  }
+  body main .sec-7 .bottom {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  body main .sec-7 .bottom .left {
+    height: 80vh;
+  }
+  body main .sec-7 .bottom .right .card {
+    padding: 3rem;
+  }
+  body main .sec-7 .bottom .right .card img {
+    width: 60px;
+  }
+  body main .sec-7 .bottom .right .card h4 {
+    margin-top: 3rem;
+  }
+  body main .sec-7 .bottom .right .card p {
+    line-height: 160%;
+  }
+  body main .sec-7 .bottom .right .card-y {
+    padding: 3rem;
+  }
+  body main .sec-7 .bottom .right .card-y h3 {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+  body main .sec-7 .bottom .right .card-y button {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  body main .sec-8 {
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    padding-block: 8rem;
+    margin-top: 0;
+  }
+  body main .sec-8 .left .img-div {
+    height: 540px;
+    width: 365px;
+    aspect-ratio: 1600/1600;
+  }
+  body main .sec-8 .left .img-div .overlay h3 {
+    font-size: 3rem;
+  }
+  body main .sec-8 .right {
+    flex-direction: row;
+    width: 70%;
+  }
+  body main .sec-8 .right .card {
+    padding: 40px;
+  }
+  body main .sec-8 .right .card h1 i {
+    width: 40px;
+    margin-bottom: 1rem;
+  }
+  body main .sec-8 .right .card h3 {
+    font-size: 28px;
+  }
 }/*# sourceMappingURL=style.css.map */

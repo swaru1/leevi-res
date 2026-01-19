@@ -967,6 +967,100 @@ footer {
         }
 
       }
+
+      .sec-7 {
+        .top {
+          flex-direction: row;
+          align-items: end;
+          justify-content: space-between;
+
+          h3 {
+            font-size: 3rem;
+          }
+        }
+
+        .bottom {
+          flex-direction: row;
+          gap: 2rem;
+
+          .left {
+            height: 80vh;
+          }
+
+          .right {
+            .card {
+              padding: 3rem;
+
+              img{
+                width: 60px;
+              }
+
+              h4 {
+                margin-top: 3rem;
+              }
+
+              p {
+                line-height: 160%;
+              }
+
+            }
+
+            .card-y {
+              padding: 3rem;
+              h3 {
+                font-size: 3rem;
+                margin-bottom: 6rem;
+              }
+              button {
+                width: max-content;
+              }
+            }
+          }
+
+        }
+      }
+
+      .sec-8 {
+        flex-direction: row;
+        gap: 2rem;
+        width: 100%;
+        padding-block: 8rem;
+        margin-top: 0;
+
+        .left {
+          .img-div {
+            height: 540px;
+            width: 365px;
+            aspect-ratio: 1600/1600;
+          }
+          .img-div .overlay {            
+            h3 {
+              font-size: 3rem;
+            }
+          }
+        }
+        .right {
+          flex-direction: row;
+          width: 70%;
+
+          .card {
+            padding: 40px;
+
+            h1 {
+              i {
+                width: 40px;
+                margin-bottom: 1rem;
+              }
+            }
+            h3 {
+              font-size: 28px;
+            }
+            p {
+
+            }
+          }
+        }
+      }
     }
   }
 }
