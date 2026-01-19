@@ -658,15 +658,26 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-footer img {
-  width: 6rem;
-}
 footer .socials {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+}
+footer .socials div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+footer .socials div h4 {
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: center;
+}
+footer .socials img {
+  width: 6rem;
+  margin-bottom: 3rem;
 }
 footer .socials h4 {
   border-radius: 5px;
@@ -699,6 +710,13 @@ footer .page-links h4 {
   font-size: 14px;
   font-size: 300;
   color: rgb(109, 107, 107);
+}
+
+.copy {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(93, 90, 90);
+  padding: 6rem;
 }
 
 @media (min-width: 768px) {
@@ -943,5 +961,39 @@ footer .page-links h4 {
     flex: 1 0 0px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  body footer {
+    margin-top: 6rem;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+  }
+  body footer .socials {
+    margin: 0;
+    width: 33%;
+    align-items: start;
+    gap: 2rem;
+  }
+  body footer .socials img {
+    margin: 0;
+  }
+  body footer .socials div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  body footer .page-links {
+    flex-grow: 1;
+    margin: 0;
+    align-items: start;
+  }
+  body .copy {
+    text-align: center;
+    padding: 8rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.466);
   }
 }/*# sourceMappingURL=style.css.map */
