@@ -1152,6 +1152,10 @@ footer {
           display: flex;
           flex-direction: column;
           gap: 0.5rem;
+
+          h4 {
+            align-self: flex-start;
+          }
         }
       }
 
