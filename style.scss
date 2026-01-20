@@ -827,15 +827,75 @@ footer {
 
 @media (min-width: 768px) {
   body {
-    background-color: lightgreen;
+    //background-color: lightgreen;
+
+    main {
+      .sec-1 {
+        .hero-img {
+          height: 425px;
+        }
+      }
+
+      .svgs {
+        gap: 3rem;
+        img {
+          height: 45px;
+        }
+      }
+
+      .sec-4 {
+        .bottom {
+          .img-card {
+            height: 530px;
+          }
+        }
+      }
+
+      .sec-5 {
+        .bottom {
+          .text {
+            gap: 2rem;
+
+            p {
+              line-height: 160%;
+            }
+          }
+        }
+      }
+
+      .sec-7 {
+        .bottom {
+          .left{
+            height: 490px;
+          }
+        }
+      }
+
+      .sec-8 {
+        .left {
+          .img-div {
+            height: 798px;
+          }
+        }
+      }
+
+      .sec-10 {
+        .right {
+          .card {
+            div {
+              height: 412px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
 @media (min-width: 1024px) {
-
   body {
     padding: 2rem;
-    background-color: skyblue;
+    //background-color: skyblue;
 
     main {
       padding: 2rem 3rem;
@@ -986,7 +1046,7 @@ footer {
 
           .left {
             height: 70vh;
-            aspect-ratio: 1.4444444444444444 ;
+            aspect-ratio: 1.4444444444444444;
           }
 
           .right {
@@ -1113,7 +1173,7 @@ footer {
           display: flex;
           flex-direction: column;
           .card {
-            div{
+            div {
               height: 315px;
             }
           }
@@ -1168,7 +1228,7 @@ footer {
 
 @media (min-width: 1440px) {
   body {
-    background-color: rosybrown;
+    //background-color: rosybrown;
     padding: 3rem;
 
     main {

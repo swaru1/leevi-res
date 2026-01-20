@@ -720,14 +720,37 @@ footer .page-links h4 {
 }
 
 @media (min-width: 768px) {
-  body {
-    background-color: lightgreen;
+  body main .sec-1 .hero-img {
+    height: 425px;
+  }
+  body main .svgs {
+    gap: 3rem;
+  }
+  body main .svgs img {
+    height: 45px;
+  }
+  body main .sec-4 .bottom .img-card {
+    height: 530px;
+  }
+  body main .sec-5 .bottom .text {
+    gap: 2rem;
+  }
+  body main .sec-5 .bottom .text p {
+    line-height: 160%;
+  }
+  body main .sec-7 .bottom .left {
+    height: 490px;
+  }
+  body main .sec-8 .left .img-div {
+    height: 798px;
+  }
+  body main .sec-10 .right .card div {
+    height: 412px;
   }
 }
 @media (min-width: 1024px) {
   body {
     padding: 2rem;
-    background-color: skyblue;
   }
   body main {
     padding: 2rem 3rem;
@@ -996,7 +1019,6 @@ footer .page-links h4 {
 }
 @media (min-width: 1440px) {
   body {
-    background-color: rosybrown;
     padding: 3rem;
   }
   body main {
