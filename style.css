@@ -1020,14 +1020,17 @@ footer .page-links h4 {
     display: flex;
     flex-direction: row;
     align-items: end;
-    justify-content: space-between;
+    gap: 2rem;
   }
   body main .sec-1 .hero-txt h1 {
+    display: flex;
+    flex: 1 0 0px;
     font-size: 80px;
     line-height: 100%;
     text-align: start;
   }
   body main .sec-1 .hero-txt h3 {
+    width: 40%;
     font-size: 1.5rem;
     text-align: start;
   }
@@ -1050,6 +1053,7 @@ footer .page-links h4 {
   body main .sec-3 .left {
     flex-direction: column;
     gap: 1rem;
+    width: 50%;
   }
   body main .sec-3 .left h5 {
     font-size: 14px;
@@ -1060,6 +1064,9 @@ footer .page-links h4 {
   }
   body main .sec-3 .left p {
     font-size: 20px;
+  }
+  body main .sec-3 .right {
+    width: 50%;
   }
   body main .sec-4 {
     gap: 3rem;
